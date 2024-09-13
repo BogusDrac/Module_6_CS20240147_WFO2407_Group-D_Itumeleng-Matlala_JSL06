@@ -59,9 +59,11 @@ main {
 #menu ul, #order ul {
     list-style: none;
     padding: 0;
+    padding-bottom: 1rem;
 }
 
 #menu li, #order li {
+    padding-top: 1rem;
     margin-bottom: 0.5rem;
     cursor: pointer;
     transition: background-color 0.3s ease; /* Add this for the animation */
